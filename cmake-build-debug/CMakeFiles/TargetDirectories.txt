@@ -1,0 +1,3 @@
+C:/Users/maxwe/CLionProjects/3D_Printed_Statues/cmake-build-debug/CMakeFiles/3D_Printed_Statues.dir
+C:/Users/maxwe/CLionProjects/3D_Printed_Statues/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/maxwe/CLionProjects/3D_Printed_Statues/cmake-build-debug/CMakeFiles/rebuild_cache.dir
