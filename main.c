@@ -28,17 +28,19 @@ Sample input 2:
 #include <stdio.h>
 
 int main(void) {
-    int n;
-    int powerTwo = 1;
-    int count = 1;
+    int n;     //@n represents the number of statues we need
+    int powerTwo = 1; //@powerTwo needs to start at 1 becasue later it's being multiplied by 2 
+    int count = 1; //@count starts at one to account for if n = 1
+    
     scanf("%d", &n);
-
-while (powerTwo <= n)
+    
+//as long as the powerTwo is smaller than n we continue
+while (powerTwo <= n) 
     {
     if (n > powerTwo)
         {
-        powerTwo = powerTwo * 2;
-        count++;
+        powerTwo = powerTwo * 2; //progressively increment by 2 until n is < powerTwo
+        count++;   //acts as days passed as each print takes a full day
         }
     else
         break;
